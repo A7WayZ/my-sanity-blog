@@ -38,10 +38,12 @@ export default async function RootLayout({
           <Link href="/" className="font-bold text-xl tracking-tighter">
             My Brand
           </Link>
-          
           <div className="flex gap-6 text-sm font-medium text-gray-600">
             <Link href="/projects" className="hover:text-black">
               Portfolio
+            </Link>
+            <Link href="/shop" className="hover:text-black">
+              Shop 
             </Link>
             <Link href="/about" className="hover:text-black">
               About
